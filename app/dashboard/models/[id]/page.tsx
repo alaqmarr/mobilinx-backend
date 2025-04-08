@@ -151,7 +151,7 @@ export default function ModelsPage() {
           Back to Series
         </Button>
         <span className="text-sm text-gray-500">
-          {series.brand.name} &gt; {series.name}
+          {series.brand.name || "APPLE"} &gt; {series.name}
         </span>
       </div>
 

@@ -194,7 +194,7 @@ export default function SeriesPage() {
                           <Button
                             variant="outline"
                             size="sm"
-                            onClick={() => router.push(`/dashboard/models?seriesId=${serie.id}`)}
+                            onClick={() => router.push(`/dashboard/models/${serie.id}`)}
                           >
                             View Models
                           </Button>
